@@ -1,0 +1,44 @@
+.bg-img {
+  /* The image used */
+  background-image: url("book.jpg");
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #fff7f7;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #00ff73;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Arial';
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #1c03ff;
+    color: rgb(252, 252, 252);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(3, 250, 36, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
